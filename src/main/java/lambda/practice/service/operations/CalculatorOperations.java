@@ -18,15 +18,11 @@ public class CalculatorOperations implements CalculatorOperationsInterface {
 
     @Override
     public double divide(double firstValue, double secondValue) {
-        try {
-            return firstValue / secondValue;
-        } catch (ArithmeticException e) {
-            throw new ArithmeticException();
-        }
+        return firstValue / secondValue;
     }
 
     @Override
-    public double toPower(double firstValue, double secondValue) {
-        return Math.pow(firstValue, secondValue);
+    public double toPower(double base, double power) {
+        return Math.pow(base, power);
     }
 }

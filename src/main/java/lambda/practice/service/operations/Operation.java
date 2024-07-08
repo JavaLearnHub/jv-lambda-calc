@@ -13,7 +13,13 @@ public enum Operation {
         this.value = value;
     }
 
-    public char getValue() {
-        return value;
+    public static Operation getOperation(char value){
+        for (Operation op : Operation.values()){
+            if(op.value == value){
+                return op;
+            }
+        }
+        return null;
     }
+
 }
