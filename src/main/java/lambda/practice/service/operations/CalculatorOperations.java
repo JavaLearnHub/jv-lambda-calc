@@ -2,23 +2,23 @@ package lambda.practice.service.operations;
 
 public class CalculatorOperations implements CalculatorOperationsInterface {
     @Override
-    public double add(double firstValue, double secondValue) {
-        return firstValue + secondValue;
+    public double add(double firstTerm, double secondTerm) {
+        return firstTerm + secondTerm;
     }
 
     @Override
-    public double subtract(double firstValue, double secondValue) {
-        return firstValue - secondValue;
+    public double subtract(double minuend, double subtrahend) {
+        return minuend - subtrahend;
     }
 
     @Override
-    public double multiply(double firstValue, double secondValue) {
-        return firstValue * secondValue;
+    public double multiply(double firstMultiplier, double secondMultiplier) {
+        return firstMultiplier * secondMultiplier;
     }
 
     @Override
-    public double divide(double firstValue, double secondValue) {
-        return firstValue / secondValue;
+    public double divide(double dividend, double divisor) {
+        return dividend / divisor;
     }
 
     @Override

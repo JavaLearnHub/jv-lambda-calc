@@ -1,13 +1,13 @@
 package lambda.practice.service.operations;
 
 public interface CalculatorOperationsInterface {
-    double add(double firstValue, double secondValue);
+    double add(double firstTerm, double secondTerm);
 
-    double subtract(double firstValue, double secondValue);
+    double subtract(double minuend, double subtrahend);
 
-    double multiply(double firstValue, double secondValue);
+    double multiply(double firstMultiplier, double secondMultiplier);
 
-    double divide(double firstValue, double secondValue);
+    double divide(double dividend, double divisor);
 
     double toPower(double base, double power);
 
